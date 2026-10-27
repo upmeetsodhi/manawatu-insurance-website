@@ -74,3 +74,8 @@ html{scroll-padding-top:106px}body{background:var(--v4-grey);font-family:'Manrop
 .v4-service-stack article{min-height:205px}
 .v4-service-stack h3{max-width:345px;line-height:1.16}
 @media(max-width:760px){.brand-symbol{width:37px;height:37px}.brand-type strong{font-size:18px}.brand-type small{font-size:7px;letter-spacing:.31em}.v4-service-stack article{min-height:180px}.v4-service-stack h3{max-width:295px;font-size:23px}}
+.brand-lockup{display:inline-flex;align-items:baseline;gap:5px;color:#24492a;white-space:nowrap}
+.brand-lockup strong,.brand-lockup>span{font-family:'Manrope',Arial,sans-serif;font-size:23px;line-height:1.15;letter-spacing:-.065em}
+.brand-lockup strong{font-weight:800}
+.brand-lockup>span{font-weight:600;color:#4d8b45}
+@media(max-width:760px){.brand-lockup strong,.brand-lockup>span{font-size:19px}}
