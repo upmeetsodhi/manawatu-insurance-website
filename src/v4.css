@@ -106,3 +106,5 @@ html{scroll-padding-top:106px}body{background:var(--v4-grey);font-family:'Manrop
 @media(max-width:760px){.v4-approach-gallery{margin-top:5px;gap:10px}.v4-approach-gallery>div{height:155px;border-radius:13px}.v4-approach-gallery span{left:12px;bottom:12px;font-size:8px}}
 
 .v4-approach-photo img,.v4-approach-gallery img{filter:saturate(.72) contrast(.94) brightness(.98)}
+
+.footer-menu .footer-postal{margin:0;color:#485a4b;font-size:13px;line-height:1.5}
