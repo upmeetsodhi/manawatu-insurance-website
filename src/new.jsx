@@ -9,8 +9,8 @@ import './v4.css';
 const OFFICE='admin@manawatuinsurance.co.nz';
 const phone='06 350 6800';
 const advisers=[
- {name:'John Dunlop',image:'/images/john.jpg',role:'Financial Adviser · Owner / Director',focus:'Business, farming and family protection',number:'0274 353 018',call:'tel:+64274353018',email:OFFICE,office:true},
- {name:'Shane Galloway',image:'/images/shane.jpg',role:'Broker · Owner / Director',focus:'Broking, underwriting and claims experience',number:'022 411 8105',call:'tel:+64224118105',email:OFFICE,office:true},
+ {name:'John Dunlop',image:'/images/john.jpg',role:'Financial Adviser · Owner / Director',focus:'Business, farming and family protection',number:'0274 353 018',call:'tel:+64274353018',email:'john@manawatuinsurance.co.nz'},
+ {name:'Shane Galloway',image:'/images/shane.jpg',role:'Broker · Owner / Director',focus:'Broking, underwriting and claims experience',number:'022 411 8105',call:'tel:+64224118105',email:'shane@manawatuinsurance.co.nz'},
  {name:'Kayne Dunlop',image:'/images/kayne.jpg',role:'Financial Adviser · Owner / Director',focus:'Personal risk, general insurance and KiwiSaver',number:'027 212 5504',call:'tel:+64272125504',email:'kayne@manawatuinsurance.co.nz'}
 ];
 const cover=[
