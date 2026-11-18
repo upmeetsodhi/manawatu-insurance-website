@@ -88,7 +88,7 @@ html{scroll-padding-top:106px}body{background:var(--v4-grey);font-family:'Manrop
 .adviser-meta .adviser-disclosure svg:last-child{margin-left:auto;flex:none}
 @media(max-width:760px){.brand-lockup strong,.brand-lockup>span{font-size:19px}}
 .brand-with-swoosh{position:relative}
-.brand-with-swoosh::before{content:'';position:absolute;left:0;right:0;top:-23px;height:22px;background:url('/images/manawatu-green-swoosh-source.png') center -20px/100% auto no-repeat;mix-blend-mode:multiply;pointer-events:none}
+.brand-with-swoosh::before{content:'';position:absolute;left:0;right:0;top:-23px;height:22px;background:url('/images/manawatu-green-swoosh-source.png') center -6px/100% auto no-repeat;mix-blend-mode:multiply;pointer-events:none}
 .regulatory-note{display:flex;justify-content:space-between;align-items:end;gap:44px;background:#fff;border-top:1px solid #e2e9e0;padding:24px 5.2% 28px;color:#58695b}
 .regulatory-note>div:first-child{max-width:800px}
 .regulatory-kicker{display:block;margin-bottom:7px;color:#4d8b45;font-size:10px;font-weight:800;letter-spacing:.13em}
@@ -96,7 +96,7 @@ html{scroll-padding-top:106px}body{background:var(--v4-grey);font-family:'Manrop
 .regulatory-note strong{color:#24492a;font-weight:700}
 .regulatory-links{display:flex;gap:24px;flex:none}
 .regulatory-links a{display:inline-flex;align-items:center;gap:5px;border-bottom:1px solid #b8ccb7;padding-bottom:3px;color:#3f7840;font-size:11px;font-weight:700}
-@media(max-width:760px){.brand-with-swoosh::before{top:-18px;height:17px;background-position:center -15px}.regulatory-note{display:block;padding:28px 26px}.regulatory-links{margin-top:17px;flex-wrap:wrap;gap:12px 22px}}
+@media(max-width:760px){.brand-with-swoosh::before{top:-18px;height:17px;background-position:center -5px}.regulatory-note{display:block;padding:28px 26px}.regulatory-links{margin-top:17px;flex-wrap:wrap;gap:12px 22px}}
 
 /* Local imagery and disclosure refinements */
 .v4-approach-gallery{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:32px}
