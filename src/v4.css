@@ -111,3 +111,13 @@ html{scroll-padding-top:106px}body{background:var(--v4-grey);font-family:'Manrop
 .v4-approach-photo img,.v4-approach-gallery img{filter:saturate(.72) contrast(.94) brightness(.98)}
 
 .footer-menu .footer-postal{margin:0;color:#485a4b;font-size:13px;line-height:1.5}
+/* Search-friendly service and sitemap pages preserve the former page URLs. */
+.service-directory{background:#fff}
+.service-directory-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.service-directory-grid article{padding:36px;background:#f1f5ef;border-radius:22px;display:flex;flex-direction:column}
+.service-directory-grid h2{font-size:clamp(25px,2.7vw,36px);line-height:1.1;margin:20px 0 28px;color:#172b20}
+.service-directory-grid ul{padding:0;margin:0 0 30px;list-style:none;flex:1}
+.service-directory-grid li{padding:12px 0;border-top:1px solid #d5e0d3;color:#405446}
+.service-directory-grid .under-link{align-self:flex-start}
+.sitemap-page{background:#fff}.sitemap-page ul{padding:0;margin:0;list-style:none;max-width:700px}.sitemap-page li{border-bottom:1px solid #d5e0d3}.sitemap-page a{display:flex;justify-content:space-between;padding:21px 0;font-size:22px}
+@media(max-width:850px){.service-directory-grid{grid-template-columns:1fr}.service-directory-grid article{padding:28px}}
