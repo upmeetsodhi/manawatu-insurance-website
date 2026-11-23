@@ -39,8 +39,10 @@ jobs:
           test -f dist/contact/index.html
           test -f dist/disclosure/index.html
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
+      - name: Allow artifact metadata to propagate
+        run: sleep 15
       - id: deployment
         uses: actions/deploy-pages@v4
