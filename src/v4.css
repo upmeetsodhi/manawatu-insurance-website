@@ -88,7 +88,7 @@ html{scroll-padding-top:106px}body{background:var(--v4-grey);font-family:'Manrop
 .adviser-meta .adviser-disclosure svg:last-child{margin-left:auto;flex:none}
 @media(max-width:760px){.brand-lockup strong,.brand-lockup>span{font-size:19px}}
 .brand-with-swoosh{position:relative}
-.brand-with-swoosh::before{content:'';position:absolute;left:0;right:0;top:-23px;height:22px;background:url('/images/manawatu-green-swoosh-source.png') center -6px/100% auto no-repeat;mix-blend-mode:multiply;pointer-events:none}
+.brand-with-swoosh::before{content:'';position:absolute;left:0;right:0;top:-23px;height:22px;background:var(--swoosh-image) center -6px/100% auto no-repeat;mix-blend-mode:multiply;pointer-events:none}
 .regulatory-note{display:flex;justify-content:space-between;align-items:end;gap:44px;background:#fff;border-top:1px solid #e2e9e0;padding:24px 5.2% 28px;color:#58695b}
 .regulatory-note>div:first-child{max-width:800px}
 .regulatory-kicker{display:block;margin-bottom:7px;color:#4d8b45;font-size:10px;font-weight:800;letter-spacing:.13em}
