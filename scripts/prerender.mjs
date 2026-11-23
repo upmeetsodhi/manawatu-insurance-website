@@ -38,6 +38,9 @@ try{
    about:{'@type':'Organization',name:'Manawatu Insurance',url:base,telephone:'+64-6-350-6800',email:'admin@manawatuinsurance.co.nz'}
   };
   html=html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/,`<link rel="canonical" href="${base}${meta.path}"/><script>window.__INITIAL_PAGE__=${JSON.stringify(page)}</script><script type="application/ld+json">${JSON.stringify(structuredData)}</script>`);
+  if(live){
+   html=html.replace('</head>',`<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQMYHSY7L3"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-QQMYHSY7L3');</script></head>`);
+  }
   const directory=join('dist',meta.path);
   await mkdir(directory,{recursive:true});
   await writeFile(join(directory,'index.html'),html);
