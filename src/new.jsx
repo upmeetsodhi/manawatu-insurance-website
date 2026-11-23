@@ -12,8 +12,8 @@ const previewBase=import.meta.env.BASE_URL.replace(/\/$/,'');
 const asset=(path)=>`${previewBase}${path}`;
 const advisers=[
  {name:'John Dunlop',image:asset('/images/john.jpg'),role:'Financial Adviser · Owner / Director',focus:'Business, farming and family protection',number:'0274 353 018',call:'tel:+64274353018',email:'john@manawatuinsurance.co.nz',disclosure:'https://mfsinsurance.sharepoint.com/:b:/g/IQDBMgnU7PcRQ6-kjfK6rIuEAehJzIBloJD-T1RNctXxcJ0?e=X9iIJd'},
- {name:'Shane Galloway',image:asset('/images/shane.jpg'),role:'Broker · Owner / Director',focus:'Broking, underwriting and claims experience',number:'022 411 8105',call:'tel:+64224118105',email:'shane@manawatuinsurance.co.nz',disclosure:'https://mfsinsurance.sharepoint.com/:b:/g/IQADmEDfUzMLT4rwg2DTmpDxAdZ_YLnVIAzLRCKkDL-TNQI?e=yxHccd'},
- {name:'Kayne Dunlop',image:asset('/images/kayne.jpg'),role:'Financial Adviser · Owner / Director',focus:'Personal risk, general insurance and KiwiSaver',number:'027 212 5504',call:'tel:+64272125504',email:'kayne@manawatuinsurance.co.nz',disclosure:'https://mfsinsurance.sharepoint.com/:b:/g/IQAntxZwD81fTYOZh1QodstaATQl644aXMPHh4WnnxinmKg?e=ndpngj'}
+ {name:'Shane Galloway',image:asset('/images/shane-grey.jpg'),role:'Broker · Owner / Director',focus:'Broking, underwriting and claims experience',number:'022 411 8105',call:'tel:+64224118105',email:'shane@manawatuinsurance.co.nz',disclosure:'https://mfsinsurance.sharepoint.com/:b:/g/IQADmEDfUzMLT4rwg2DTmpDxAdZ_YLnVIAzLRCKkDL-TNQI?e=yxHccd'},
+ {name:'Kayne Dunlop',image:asset('/images/kayne-grey.jpg'),role:'Financial Adviser · Owner / Director',focus:'Personal risk, general insurance and KiwiSaver',number:'027 212 5504',call:'tel:+64272125504',email:'kayne@manawatuinsurance.co.nz',disclosure:'https://mfsinsurance.sharepoint.com/:b:/g/IQAntxZwD81fTYOZh1QodstaATQl644aXMPHh4WnnxinmKg?e=ndpngj'}
 ];
 const cover=[
  {title:'Home & everyday',tag:'01 / PERSONAL',image:asset('/images/home.webp'),icon:Home,detail:'For the place you call home and the things that move with you.',items:['Home & contents','Cars and specialist vehicles','Travel and lifestyle']},
