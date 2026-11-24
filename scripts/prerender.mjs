@@ -6,8 +6,11 @@ import React from 'react';
 
 const base='https://www.manawatuinsurance.co.nz';
 const live=process.env.MANAWATU_LIVE_DOMAIN==='1';
+if(live && (process.env.VITE_MANAWATU_LIVE!=='1'||process.env.VITE_ENQUIRY_PROVIDER!=='formsubmit')){
+ throw new Error('Live build blocked: live copy and the FormSubmit enquiry provider must be enabled.');
+}
 if(live && process.env.MANAWATU_ENQUIRIES_VERIFIED!=='1'){
- throw new Error('Live build blocked: Microsoft 365 enquiry delivery has not been verified.');
+ throw new Error('Live build blocked: enquiry delivery to the admin mailbox has not been verified.');
 }
 const routes={
  home:{path:'/',title:'Manawatu Insurance | Insurance Advisers in Palmerston North',description:'Local insurance advice for homes, businesses, farms and families. Talk with Manawatu Insurance in Palmerston North.'},
