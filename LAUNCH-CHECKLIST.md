@@ -14,7 +14,7 @@ This repository currently builds a **preview**. The preview is marked `noindex` 
 
 1. Activate the FormSubmit endpoint from the activation message sent to `admin@manawatuinsurance.co.nz`. It will deliver messages to that Microsoft 365 mailbox; FormSubmit processes and retains submissions for 30 days.
 2. Submit a fresh test enquiry from desktop and mobile. Read back receipt in the admin mailbox, including the subject, sender reply address, all fields, and delivery time. Test the failure state as well. The local form handles both confirmed success and failed delivery, but mailbox receipt remains outstanding.
-3. John has approved the disclosure copy. Recheck the linked adviser and joint statements anonymously, and confirm the newly added FormSubmit privacy wording before launch.
+3. John has approved the disclosure copy. The linked John, Shane, Kayne and joint statements opened as viewable PDFs in a clean browser without a Microsoft sign-in on 24 November 2026. Review the newly added FormSubmit privacy wording before launch.
 4. Remove the concept banner, demo wording, and old-site link. Keep the live build blocked until the preceding checks pass.
 5. The GitHub repository and preview are in Upmeet's account for now. Arrange transfer to business control later if desired.
 6. Verify GitHub-hosted pages, HTTPS, custom domain, redirects from old paths, and the form on the staging URL before the DNS cutover. Preserve Microsoft 365 mail DNS records.
